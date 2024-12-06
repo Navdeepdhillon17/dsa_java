@@ -165,5 +165,21 @@ Modified Array: 0 1 3 0 4
    - **Time Complexity:** O(n) – Each element is processed once.
    - **Space Complexity:** O(1) – No extra space is used.
 
+### **Efficiency**
+
+- **Time Complexity: O(n)**  
+  The solution iterates through the array once, checking each element and moving valid elements to the front. Each element is processed in constant time, so the overall time complexity is linear.
+
+- **Space Complexity: O(1)**  
+  The algorithm modifies the array in-place, using only a few extra variables (`k` and loop counters), so it doesn't require additional space.
+
+- **Why Efficient?**  
+  - **In-Place:** The array is modified directly without needing extra space for another array.
+  - **Single Pass:** The solution processes each element only once, making it fast and optimal for large arrays.
+
+---
+
+This should keep the explanation simple and easy to understand for your README!
+
 3. **Elements Beyond `k`:**
    - The array beyond the returned length remains as it was but is ignored in the result.
