@@ -47,10 +47,12 @@ public class Solution {
         HashMap<Integer, Integer> map = new HashMap<>();
         int singleValue = 0;
 
-        // Count frequencies of numbers
-        for (int i : arr) {
-            map.put(i, map.getOrDefault(i, 0) + 1);
-        }
+        // Count the frequency of each number in the array
+       for (int i : arr) {
+      // Add 'i' to the HashMap or update its count if it already exists
+         map.put(i, map.getOrDefault(i, 0) + 1);
+         }
+
 
         // Find the single number
         for (int i : arr) {
