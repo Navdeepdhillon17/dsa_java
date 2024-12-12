@@ -1,4 +1,3 @@
-```markdown
 # Single Number Solution in Java
 
 ## Problem Statement
