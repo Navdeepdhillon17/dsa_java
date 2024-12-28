@@ -42,8 +42,6 @@ Given \( n = 4 \), let’s trace how the program works:
 - \( F(1) = 1 \)  
 
 
-
-This formatting uses inline LaTeX-style math to clearly display the equations. If you copy and paste this into a Markdown file, it should render correctly. Let me know if you'd like adjustments!
 ---
 
 ### **Output**
