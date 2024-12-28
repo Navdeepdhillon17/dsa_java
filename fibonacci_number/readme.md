@@ -57,7 +57,7 @@ The program prints:
 
 ### **Call Tree for \( n = 4 \)**
 
-The recursive call tree structure for \( \text{fib}(4) \) is as follows:
+The recursive call tree structure for \( fib(4) \) is as follows:
 
 ```
 fib(4)
